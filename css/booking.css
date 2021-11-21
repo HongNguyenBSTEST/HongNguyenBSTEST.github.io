@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0;padding: 0}
+.logo img {width: 50px}
+.logo {display: flex;}
+.dropdown img{width: 30px;padding-right: 5px}
+.dolar span{font-weight:bolder;padding-right: 5px }
+.menu li{padding: 5px}
+
+.menu{float: right}
+.bn1 {background-image:url("../images/Article-Cover-3_2-1440x1080-04.png");background-size: cover;background-repeat: no-repeat;}
+.bn1{width: 100%;height: 800px}
+.checkin{padding-top: 100px}
+.checkin h1{font-size: 60px}
+.tt i{margin: 0 auto; padding: 15px;color: aliceblue }
+.star{display: flex;align-items: center;justify-content: center;}
+.scn10{background-color: brown;}
+.scn10 .cuoi{border-top: 1px solid #F9F9F9; width: 100%;display: flex;align-items: center;justify-content: center;padding-top: 20px;margin-top: 10px }
+@media screen and (max-width:414px)
+{
+	.checkin{padding-top: 10px}
+.checkin h1{font-size: 40px ;margin-top: 0;}
+	.checkin{margin-top: 0;padding-top: 0;}
+	.bn1 {height: 900px}
+	.formdk{margin: 0 20px}
+	
+}
+@media screen and (max-width:768px)and (min-width:415px)
+{
+	
+	.checkin{padding-top: 10px}
+.checkin h1{font-size: 50px ;margin-top: 0;}
+	.checkin{margin-top: 0;padding-top: 0;}
+	.bn1 {height: 900px}
+	
+}
+

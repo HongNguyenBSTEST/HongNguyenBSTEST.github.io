@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0;padding: 0}
+.logo img {width: 50px}
+.logo {display: flex;}
+.dropdown img{width: 30px;padding-right: 5px}
+.dolar span{font-weight:bolder;padding-right: 5px }
+.menu li{padding: 5px}
+
+.menu{float: right}
+.signup input{width: 60%;margin-bottom: 10px; border-radius: 2px;border:none;background-color: antiquewhite;padding: 10px;}
+.signup button{padding: 10px 45px;background-color: brown;border-radius: 25px;border:none;color: aliceblue;}
+.fb{color: #1F52F8;}
+.gg{color: #F83508;}
+.ins{color:#F80206;}
+.content{padding-top: 100px;background-color:brown;color: aliceblue; }
+.content button{padding: 10px 45px;background-color:transparent;border-radius:25px;border:none;border:1px solid #F8F5F5;color: aliceblue;}
+.signup{background-color: #FFFDFD9d; padding-bottom: 50px;padding-top: 50px}
+.login{padding: 250px 5px;background-image: url("../images/anh-dep-du-lich-viet-nam-vietnam-travel-ha-long-bay-02.jpg");background-repeat: no-repeat;background-size: cover;}
+.tt i{margin: 0 auto; padding: 15px;color: aliceblue }
+.star{display: flex;align-items: center;justify-content: center;}
+.scn10{background-color: brown;}
+.scn10 .cuoi{border-top: 1px solid #F9F9F9; width: 100%;display: flex;align-items: center;justify-content: center;padding-top: 20px;margin-top: 10px }
+@media screen and (max-width:414px){
+	
+	.content{padding-top: 100px;padding-bottom: 50px}
+	.login{padding:80px 0}
+}
+@media screen and (max-width:768px)and (min-width:415px){
+	
+	.content{padding-top: 100px;padding-bottom: 100px}
+	.login{padding:100px 0}
+}
+	
+
